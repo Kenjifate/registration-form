@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+html {
+    background: lightgray;
+}
+form{
+    background-color: grey;
+    height: 115px;
+    border-bottom: 2px solid black;
+}
+h1 {
+    color: white;
+    margin-left: 15px;
+}
+.it {
+    color: black;
+    margin: 25px;
+}
+.nav{
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 100%;
+    margin-left: 15px;
+}
+.nav a:hover {
+    background-color: lightgray;
+    border-radius: 15px;
+    color: black;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
